@@ -2,7 +2,7 @@
 // Leectode : https://leetcode.com/problems/single-number
 // Difficulty : Easy
 // Status : Accepted
-class Solution {
+class Solution {               
 public:
     int singleNumber(vector<int>& nums) {
          unordered_map<int , int>mpp;
@@ -14,7 +14,7 @@ public:
                 return it.first;
             }
         }
-        return 0;
+        return 0;  kjnkjkj
    
     }
 };
